@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCBFFB081D6F728C003AE281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB071D6F728C003AE281 /* AppDelegate.swift */; };
+		FCBFFB0D1D6F728C003AE281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBFFB0B1D6F728C003AE281 /* Main.storyboard */; };
+		FCBFFB0F1D6F728C003AE281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBFFB0E1D6F728C003AE281 /* Assets.xcassets */; };
+		FCBFFB121D6F728C003AE281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBFFB101D6F728C003AE281 /* LaunchScreen.storyboard */; };
+		FCBFFB1D1D6F728C003AE281 /* TechTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB1C1D6F728C003AE281 /* TechTalkTests.swift */; };
+		FCBFFB281D6F728C003AE281 /* TechTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB271D6F728C003AE281 /* TechTalkUITests.swift */; };
+		FCBFFB2D1D6F728C003AE281 /* TechTalk WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FCBFFB2C1D6F728C003AE281 /* TechTalk WatchKit App.app */; };
+		FCBFFB331D6F728C003AE281 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBFFB311D6F728C003AE281 /* Interface.storyboard */; };
+		FCBFFB351D6F728C003AE281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBFFB341D6F728C003AE281 /* Assets.xcassets */; };
+		FCBFFB3C1D6F728C003AE281 /* TechTalk WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FCBFFB3B1D6F728C003AE281 /* TechTalk WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCBFFB431D6F728C003AE281 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB421D6F728C003AE281 /* InterfaceController.swift */; };
+		FCBFFB451D6F728C003AE281 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB441D6F728C003AE281 /* ExtensionDelegate.swift */; };
+		FCBFFB471D6F728C003AE281 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB461D6F728C003AE281 /* NotificationController.swift */; };
+		FCBFFB491D6F728C003AE281 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB481D6F728C003AE281 /* GlanceController.swift */; };
+		FCBFFB4B1D6F728C003AE281 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB4A1D6F728C003AE281 /* ComplicationController.swift */; };
+		FCBFFB4D1D6F728C003AE281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBFFB4C1D6F728C003AE281 /* Assets.xcassets */; };
+		FCBFFB631D6F72F7003AE281 /* grio-logo-square.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBFFB621D6F72F7003AE281 /* grio-logo-square.png */; };
+		FCBFFB651D6F75B3003AE281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFFB641D6F75B3003AE281 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCBFFB191D6F728C003AE281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBFFAFC1D6F728C003AE281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBFFB031D6F728C003AE281;
+			remoteInfo = TechTalk;
+		};
+		FCBFFB241D6F728C003AE281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBFFAFC1D6F728C003AE281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBFFB031D6F728C003AE281;
+			remoteInfo = TechTalk;
+		};
+		FCBFFB2E1D6F728C003AE281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBFFAFC1D6F728C003AE281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBFFB2B1D6F728C003AE281;
+			remoteInfo = "TechTalk WatchKit App";
+		};
+		FCBFFB3D1D6F728C003AE281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBFFAFC1D6F728C003AE281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBFFB3A1D6F728C003AE281;
+			remoteInfo = "TechTalk WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCBFFB541D6F728C003AE281 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCBFFB3C1D6F728C003AE281 /* TechTalk WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB581D6F728C003AE281 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FCBFFB2D1D6F728C003AE281 /* TechTalk WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FCBFFB041D6F728C003AE281 /* TechTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBFFB071D6F728C003AE281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCBFFB0C1D6F728C003AE281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCBFFB0E1D6F728C003AE281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCBFFB111D6F728C003AE281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCBFFB131D6F728C003AE281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBFFB181D6F728C003AE281 /* TechTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBFFB1C1D6F728C003AE281 /* TechTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTalkTests.swift; sourceTree = "<group>"; };
+		FCBFFB1E1D6F728C003AE281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBFFB231D6F728C003AE281 /* TechTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBFFB271D6F728C003AE281 /* TechTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTalkUITests.swift; sourceTree = "<group>"; };
+		FCBFFB291D6F728C003AE281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBFFB2C1D6F728C003AE281 /* TechTalk WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TechTalk WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBFFB321D6F728C003AE281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FCBFFB341D6F728C003AE281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCBFFB361D6F728C003AE281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBFFB3B1D6F728C003AE281 /* TechTalk WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TechTalk WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBFFB411D6F728C003AE281 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FCBFFB421D6F728C003AE281 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FCBFFB441D6F728C003AE281 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FCBFFB461D6F728C003AE281 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FCBFFB481D6F728C003AE281 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		FCBFFB4A1D6F728C003AE281 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FCBFFB4C1D6F728C003AE281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCBFFB4E1D6F728C003AE281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBFFB621D6F72F7003AE281 /* grio-logo-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grio-logo-square.png"; sourceTree = "<group>"; };
+		FCBFFB641D6F75B3003AE281 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBFFB011D6F728C003AE281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB151D6F728C003AE281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB201D6F728C003AE281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB381D6F728C003AE281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBFFAFB1D6F728C003AE281 = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB061D6F728C003AE281 /* TechTalk */,
+				FCBFFB1B1D6F728C003AE281 /* TechTalkTests */,
+				FCBFFB261D6F728C003AE281 /* TechTalkUITests */,
+				FCBFFB301D6F728C003AE281 /* TechTalk WatchKit App */,
+				FCBFFB3F1D6F728C003AE281 /* TechTalk WatchKit Extension */,
+				FCBFFB051D6F728C003AE281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBFFB051D6F728C003AE281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB041D6F728C003AE281 /* TechTalk.app */,
+				FCBFFB181D6F728C003AE281 /* TechTalkTests.xctest */,
+				FCBFFB231D6F728C003AE281 /* TechTalkUITests.xctest */,
+				FCBFFB2C1D6F728C003AE281 /* TechTalk WatchKit App.app */,
+				FCBFFB3B1D6F728C003AE281 /* TechTalk WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBFFB061D6F728C003AE281 /* TechTalk */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB071D6F728C003AE281 /* AppDelegate.swift */,
+				FCBFFB641D6F75B3003AE281 /* ViewController.swift */,
+				FCBFFB0B1D6F728C003AE281 /* Main.storyboard */,
+				FCBFFB0E1D6F728C003AE281 /* Assets.xcassets */,
+				FCBFFB101D6F728C003AE281 /* LaunchScreen.storyboard */,
+				FCBFFB131D6F728C003AE281 /* Info.plist */,
+				FCBFFB621D6F72F7003AE281 /* grio-logo-square.png */,
+			);
+			path = TechTalk;
+			sourceTree = "<group>";
+		};
+		FCBFFB1B1D6F728C003AE281 /* TechTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB1C1D6F728C003AE281 /* TechTalkTests.swift */,
+				FCBFFB1E1D6F728C003AE281 /* Info.plist */,
+			);
+			path = TechTalkTests;
+			sourceTree = "<group>";
+		};
+		FCBFFB261D6F728C003AE281 /* TechTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB271D6F728C003AE281 /* TechTalkUITests.swift */,
+				FCBFFB291D6F728C003AE281 /* Info.plist */,
+			);
+			path = TechTalkUITests;
+			sourceTree = "<group>";
+		};
+		FCBFFB301D6F728C003AE281 /* TechTalk WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB311D6F728C003AE281 /* Interface.storyboard */,
+				FCBFFB341D6F728C003AE281 /* Assets.xcassets */,
+				FCBFFB361D6F728C003AE281 /* Info.plist */,
+			);
+			path = "TechTalk WatchKit App";
+			sourceTree = "<group>";
+		};
+		FCBFFB3F1D6F728C003AE281 /* TechTalk WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB421D6F728C003AE281 /* InterfaceController.swift */,
+				FCBFFB441D6F728C003AE281 /* ExtensionDelegate.swift */,
+				FCBFFB461D6F728C003AE281 /* NotificationController.swift */,
+				FCBFFB481D6F728C003AE281 /* GlanceController.swift */,
+				FCBFFB4A1D6F728C003AE281 /* ComplicationController.swift */,
+				FCBFFB4C1D6F728C003AE281 /* Assets.xcassets */,
+				FCBFFB4E1D6F728C003AE281 /* Info.plist */,
+				FCBFFB401D6F728C003AE281 /* Supporting Files */,
+			);
+			path = "TechTalk WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FCBFFB401D6F728C003AE281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFFB411D6F728C003AE281 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBFFB031D6F728C003AE281 /* TechTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBFFB591D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalk" */;
+			buildPhases = (
+				FCBFFB001D6F728C003AE281 /* Sources */,
+				FCBFFB011D6F728C003AE281 /* Frameworks */,
+				FCBFFB021D6F728C003AE281 /* Resources */,
+				FCBFFB581D6F728C003AE281 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBFFB2F1D6F728C003AE281 /* PBXTargetDependency */,
+			);
+			name = TechTalk;
+			productName = TechTalk;
+			productReference = FCBFFB041D6F728C003AE281 /* TechTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCBFFB171D6F728C003AE281 /* TechTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBFFB5C1D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalkTests" */;
+			buildPhases = (
+				FCBFFB141D6F728C003AE281 /* Sources */,
+				FCBFFB151D6F728C003AE281 /* Frameworks */,
+				FCBFFB161D6F728C003AE281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBFFB1A1D6F728C003AE281 /* PBXTargetDependency */,
+			);
+			name = TechTalkTests;
+			productName = TechTalkTests;
+			productReference = FCBFFB181D6F728C003AE281 /* TechTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCBFFB221D6F728C003AE281 /* TechTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBFFB5F1D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalkUITests" */;
+			buildPhases = (
+				FCBFFB1F1D6F728C003AE281 /* Sources */,
+				FCBFFB201D6F728C003AE281 /* Frameworks */,
+				FCBFFB211D6F728C003AE281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBFFB251D6F728C003AE281 /* PBXTargetDependency */,
+			);
+			name = TechTalkUITests;
+			productName = TechTalkUITests;
+			productReference = FCBFFB231D6F728C003AE281 /* TechTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FCBFFB2B1D6F728C003AE281 /* TechTalk WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBFFB551D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalk WatchKit App" */;
+			buildPhases = (
+				FCBFFB2A1D6F728C003AE281 /* Resources */,
+				FCBFFB541D6F728C003AE281 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBFFB3E1D6F728C003AE281 /* PBXTargetDependency */,
+			);
+			name = "TechTalk WatchKit App";
+			productName = "TechTalk WatchKit App";
+			productReference = FCBFFB2C1D6F728C003AE281 /* TechTalk WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FCBFFB3A1D6F728C003AE281 /* TechTalk WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBFFB511D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalk WatchKit Extension" */;
+			buildPhases = (
+				FCBFFB371D6F728C003AE281 /* Sources */,
+				FCBFFB381D6F728C003AE281 /* Frameworks */,
+				FCBFFB391D6F728C003AE281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TechTalk WatchKit Extension";
+			productName = "TechTalk WatchKit Extension";
+			productReference = FCBFFB3B1D6F728C003AE281 /* TechTalk WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBFFAFC1D6F728C003AE281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Raza Padhani";
+				TargetAttributes = {
+					FCBFFB031D6F728C003AE281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3WBDCZ68AG;
+					};
+					FCBFFB171D6F728C003AE281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FCBFFB031D6F728C003AE281;
+					};
+					FCBFFB221D6F728C003AE281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FCBFFB031D6F728C003AE281;
+					};
+					FCBFFB2B1D6F728C003AE281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3WBDCZ68AG;
+					};
+					FCBFFB3A1D6F728C003AE281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3WBDCZ68AG;
+					};
+				};
+			};
+			buildConfigurationList = FCBFFAFF1D6F728C003AE281 /* Build configuration list for PBXProject "TechTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCBFFAFB1D6F728C003AE281;
+			productRefGroup = FCBFFB051D6F728C003AE281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBFFB031D6F728C003AE281 /* TechTalk */,
+				FCBFFB171D6F728C003AE281 /* TechTalkTests */,
+				FCBFFB221D6F728C003AE281 /* TechTalkUITests */,
+				FCBFFB2B1D6F728C003AE281 /* TechTalk WatchKit App */,
+				FCBFFB3A1D6F728C003AE281 /* TechTalk WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBFFB021D6F728C003AE281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFFB631D6F72F7003AE281 /* grio-logo-square.png in Resources */,
+				FCBFFB121D6F728C003AE281 /* LaunchScreen.storyboard in Resources */,
+				FCBFFB0F1D6F728C003AE281 /* Assets.xcassets in Resources */,
+				FCBFFB0D1D6F728C003AE281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB161D6F728C003AE281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB211D6F728C003AE281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB2A1D6F728C003AE281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFFB351D6F728C003AE281 /* Assets.xcassets in Resources */,
+				FCBFFB331D6F728C003AE281 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB391D6F728C003AE281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFFB4D1D6F728C003AE281 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBFFB001D6F728C003AE281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFFB081D6F728C003AE281 /* AppDelegate.swift in Sources */,
+				FCBFFB651D6F75B3003AE281 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB141D6F728C003AE281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFFB1D1D6F728C003AE281 /* TechTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB1F1D6F728C003AE281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFFB281D6F728C003AE281 /* TechTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBFFB371D6F728C003AE281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFFB471D6F728C003AE281 /* NotificationController.swift in Sources */,
+				FCBFFB451D6F728C003AE281 /* ExtensionDelegate.swift in Sources */,
+				FCBFFB4B1D6F728C003AE281 /* ComplicationController.swift in Sources */,
+				FCBFFB431D6F728C003AE281 /* InterfaceController.swift in Sources */,
+				FCBFFB491D6F728C003AE281 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCBFFB1A1D6F728C003AE281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBFFB031D6F728C003AE281 /* TechTalk */;
+			targetProxy = FCBFFB191D6F728C003AE281 /* PBXContainerItemProxy */;
+		};
+		FCBFFB251D6F728C003AE281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBFFB031D6F728C003AE281 /* TechTalk */;
+			targetProxy = FCBFFB241D6F728C003AE281 /* PBXContainerItemProxy */;
+		};
+		FCBFFB2F1D6F728C003AE281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBFFB2B1D6F728C003AE281 /* TechTalk WatchKit App */;
+			targetProxy = FCBFFB2E1D6F728C003AE281 /* PBXContainerItemProxy */;
+		};
+		FCBFFB3E1D6F728C003AE281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBFFB3A1D6F728C003AE281 /* TechTalk WatchKit Extension */;
+			targetProxy = FCBFFB3D1D6F728C003AE281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCBFFB0B1D6F728C003AE281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBFFB0C1D6F728C003AE281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCBFFB101D6F728C003AE281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBFFB111D6F728C003AE281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCBFFB311D6F728C003AE281 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBFFB321D6F728C003AE281 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCBFFB4F1D6F728C003AE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCBFFB501D6F728C003AE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBFFB521D6F728C003AE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TechTalk WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		FCBFFB531D6F728C003AE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TechTalk WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		FCBFFB561D6F728C003AE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TechTalk_WatchKit_Extension;
+				INFOPLIST_FILE = "TechTalk WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		FCBFFB571D6F728C003AE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TechTalk_WatchKit_Extension;
+				INFOPLIST_FILE = "TechTalk WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		FCBFFB5A1D6F728C003AE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TechTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCBFFB5B1D6F728C003AE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TechTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCBFFB5D1D6F728C003AE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechTalk.app/TechTalk";
+			};
+			name = Debug;
+		};
+		FCBFFB5E1D6F728C003AE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechTalk.app/TechTalk";
+			};
+			name = Release;
+		};
+		FCBFFB601D6F728C003AE281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TechTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TechTalk;
+			};
+			name = Debug;
+		};
+		FCBFFB611D6F728C003AE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TechTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.TechTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TechTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBFFAFF1D6F728C003AE281 /* Build configuration list for PBXProject "TechTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBFFB4F1D6F728C003AE281 /* Debug */,
+				FCBFFB501D6F728C003AE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBFFB511D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalk WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBFFB521D6F728C003AE281 /* Debug */,
+				FCBFFB531D6F728C003AE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBFFB551D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalk WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBFFB561D6F728C003AE281 /* Debug */,
+				FCBFFB571D6F728C003AE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBFFB591D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBFFB5A1D6F728C003AE281 /* Debug */,
+				FCBFFB5B1D6F728C003AE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBFFB5C1D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBFFB5D1D6F728C003AE281 /* Debug */,
+				FCBFFB5E1D6F728C003AE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBFFB5F1D6F728C003AE281 /* Build configuration list for PBXNativeTarget "TechTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBFFB601D6F728C003AE281 /* Debug */,
+				FCBFFB611D6F728C003AE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBFFAFC1D6F728C003AE281 /* Project object */;
+}
